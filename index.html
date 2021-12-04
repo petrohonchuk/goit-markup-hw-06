@@ -435,9 +435,32 @@
         </div>       
     </footer>
     <div class="wrapper-modal is-hidden" data-modal>
-        <form action="" class="form">
+        <div class="form">
             <button type="button" class="close-button" data-modal-close> &#10006;</button>
-        </form>
+            <form class="form">
+                <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
+                <label class="form__title">
+                    <span class="form__text">имя</span>
+                    <input type="text" class="form__input" name="user-name" />
+                </label>
+                <label class="form__title">
+                    <span class="form__text">телефон</span>
+                    <input type="phone" class="form__input" name="user-phone" />
+                </label>
+                <label class="form__title">
+                    <span class="form__text">почта</span>
+                    <input type="email" class="form__input" name="user-email" />
+                </label>
+                <label class="form__title">
+                    <span class="form__text">Комментарий</span>
+                    <textarea name="user-message" class="form__textarea"></textarea>
+                </label>
+                <button type="submit" class="form__btn">отправить</button>
+                <svg>
+                    <use href="./images/svg/symbol-defs.svg"></use>
+                </svg>
+            </form>
+        </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
