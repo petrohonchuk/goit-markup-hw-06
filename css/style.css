@@ -646,6 +646,7 @@ button {
 }
 .footer-button-icon {
   fill: white;
+  margin: 0 auto;
 }
 /*-------------------------------------------------portfolio--------------------------*/
 
