@@ -886,6 +886,15 @@ button {
   line-height: calc(16 / 14);
   letter-spacing: 0.01em;
 }
+.container-modal-svg {
+  position: relative;
+}
+.modal-svg-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15px;
+}
 .form__textarea {
   width: 100%;
   resize: none;
