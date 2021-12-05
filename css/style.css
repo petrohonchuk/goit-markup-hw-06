@@ -662,6 +662,9 @@ button {
 .footer-button:hover .footer-button-icon {
   fill: greenyellow;
 }
+.footer-button-text {
+  margin-right: 10px;
+}
 
 .footer-button-icon {
   fill: white;
