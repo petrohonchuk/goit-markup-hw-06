@@ -955,15 +955,15 @@ button {
   justify-content: center;
 }
 .checkbox-container__icon {
-  width: 15px;
-  height: 16px;
+  width: 16px;
+  height: 15px;
   border: 1px solid black;
   border-radius: 2px;
   /* display: block; */
   margin-right: 7px;
   opacity: 1;
 }
-.checkbox:checked .checkbox-container__icon {
+.checkbox:checked + .checkbox-container__icon {
   opacity: 0;
   border: none;
 }
