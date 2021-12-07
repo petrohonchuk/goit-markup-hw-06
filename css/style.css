@@ -967,12 +967,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
 }
 .checkbox:checked + .checkbox-container__icon {
-  opacity: 1;
-  outline: none;
   border: none;
+}
+.checkbox:checked + .checkbox-container__icon .checkbox-container__svg-icon {
+  opacity: 0;
 }
 /* .checkbox:checked + .checkbox-container__icon {
   background-image: url(../images/icon.svg#icon-icon-check);
