@@ -953,6 +953,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 .checkbox-container__svg-icon {
   width: 16px;
