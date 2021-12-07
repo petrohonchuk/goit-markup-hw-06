@@ -972,6 +972,7 @@ button {
 .checkbox:checked + .checkbox-container__icon {
   opacity: 0;
   outline: none;
+  border: none;
 }
 /* .checkbox:checked + .checkbox-container__icon {
   background-image: url(../images/icon.svg#icon-icon-check);
