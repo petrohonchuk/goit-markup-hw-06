@@ -961,16 +961,16 @@ button {
 .checkbox-container__icon {
   width: 16px;
   height: 15px;
-  outline: 1px solid black;
+  border: 1px solid black;
   border-radius: 2px;
   margin-right: 7px;
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
 }
 .checkbox:checked + .checkbox-container__icon {
-  opacity: 0;
+  opacity: 1;
   outline: none;
   border: none;
 }
